@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url(https://fonts.googleapis.com/css2?family=Rubik&display=swap);
+}
+
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff1e0;
+    margin: 0;
+    padding: 25px;
+}
+
+footer{
+    color: #864E45;
+    font-family: 'Inconsolata', monospace;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+
+nav{
+    display: block;
+}
+
+nav ul{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #864E45;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a li{
+    color: #D6BFB3;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+/* logo */
+
+.logo{
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+.logo img{
+    max-width: 160px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFF7EB;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+article{
+    padding: 30px;
+}
+
+span{
+    padding-bottom: 1rem !important;
+}
+
+article h3{
+    font-size: 1.1rem;
+    width: max-content;
+    border-radius: 4px;
+    background-color: #5F4A35;
+    color: #FFF1EA;
+    padding: 5px 15px 5px 15px;
+}
+
+article h3:hover{
+    color: #ffffff;
+}
+
+article li{
+    line-height: 1.5rem;
+    color: #864E45;
+}
+
+section.recipe-information, .recipe-information ul{
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;  
+}
+
+.recipe-information li{
+    border: 2px solid #5F4A35;
+    border-radius: 5px;
+    background-color: #5F4A35;
+    color: #D6BFB3;
+    margin: 0px 10px 30px 0;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.recipe-information span{
+    color: #ffffff;
+}
+
+span.handwrite{
+    font-family: 'Rubik' ;
+    color: #5F4A35;
+    font-size: 22pt;
+    font-weight: 500;
+    display: block;
+    padding: 50px 0px 50px 0px;
+    text-align: right;
+}
+
+.text{
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+.featured-image{
+    width: 50%;
+    padding-right: 2rem;
+
+}
+
+.featured-image img{
+    border: 1em solid #ffffff;
+    border-radius: 25px 0px 0px 25px;
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    width: 50%;
+}
